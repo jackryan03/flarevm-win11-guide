@@ -19,8 +19,8 @@
 	3. Press SHIFT + F10 and enter 'ipconfig /release'. Close command prompt and continue with setup without connecting to internet.
 	4. After setup you may have to restart for the internet to work again.
 5. Take a snapshot of the machine now that windows is installed
-	1. Machine > Take Snapshot...
-6. Disabling Defender 
+	1. In VirtualBox window, Machine > Take Snapshot...
+6. Disable Defender 
 	1. Enter safe boot
 		1. Windows key + R
 		2. msconfig
@@ -32,20 +32,19 @@
 		2. regedit
 		3. Navigate to HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Service
 		4. In the following folders modify the key Start to 4
-			1. Sense (I couldn't find)
-			2. WdBoot
-			3. WdFilter
-			4. WdNisDrv
-			5. WdNisSvc
-			6. WinDefend
+			1. WdBoot
+			2. WdFilter
+			3. WdNisDrv
+			4. WdNisSvc
+			5. WinDefend
 	3. Exit Safe Mode
-		1. 1. Windows key + R
+		1. Windows key + R
 		2. msconfig
 		3. Boot tab
 		4. Unselect Safe boot and press OK
 		5. Restart
-7. Enabling Guest Additions (For Fullscreen)
-	1. Devices > Insert Guest Additions CD image...
+7. Enable Guest Additions (For Fullscreen)
+	1. In VirtualBox window, Devices > Insert Guest Additions CD image...
 	2. Navigate to 'CD Drive (D:) VirtualBox Guest Additions'
 	3. Run the .exe corresponding to your architecture
 		1. VBoxWindowsAdditions.exe for intel 64 bit
@@ -54,7 +53,7 @@
 		4. VBoxWindowsAdditions-x86 for 32 bit systems
 	4. After reboot, you should be able to change the screen resolution under the View menu.
 8. Take another snapshot of pre-installation state
-9. Follow [install guide](https://github.com/mandiant/flare-vm) and be ready to wait a long time
+9. Complete the [install guide](https://github.com/mandiant/flare-vm)
 	1. If you get stuck in a boot loop repeatedly trying to install the first package like I did, you may need to stop the install script, restart your VM, and try again.
 
 ### References
