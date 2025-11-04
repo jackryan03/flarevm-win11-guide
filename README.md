@@ -1,6 +1,6 @@
 # flarevm-win11-guide
 
-> <small>At the time of writing this the FlareVM install takes 10+ hours.</small>
+> <small>At the time of writing this the FlareVM install takes 10+ hours. I have had a successful installation on two AMD systems, but results may vary.</small>
 
 ## Steps
 1. Install [VirtualBox](https://www.virtualbox.org/wiki/Downloads)
