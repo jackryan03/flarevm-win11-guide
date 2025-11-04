@@ -6,6 +6,8 @@
 2. Extract file to C:/Ghidra
 3. Navigate to C:\Ghidra\ghidra_xx.xx.xx_PUBLIC and run ghidrarun.bat
 ![ghidraRun.bat](images/ghidraRun.png)
+4. If you encounter the error "Java runtime not found"
+  1. Download and install the Java JDK, making sure to add JDK bin to PATH.
 
 ## Creating a project
 1. File > New Project
@@ -30,3 +32,8 @@
 4. Leave comments by pressing ':' (only pre comments show up in the Decompiled view)
 ![Comment types example](images/ghidra-comments-example.png)
 5. Edit function signature by right clicking on function and selecting 'Edit Function Signature'
+
+### References
+- [How to Install Ghidra on Windows](https://allabouttesting.org/how-to-install-ghidra-on-windows/)
+- [Ghidra quickstart & tutorial: Solving a simple crackme](https://youtu.be/fTGTnrgjuGA?si=2eUhWF6MuUIZ4pxn)
+
