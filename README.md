@@ -1,16 +1,18 @@
 # flarevm-win11-guide
 
+> <small>At the time of writing this the FlareVM install takes 10+ hours.</small>
+
 ## Steps
 1. Install [VirtualBox](https://www.virtualbox.org/wiki/Downloads)
 2. Download [Windows ISO](https://www.microsoft.com/en-us/software-download/windows11)
 3. Create Virtual Machine
-	![[Pasted image 20251020213647.png]]
+	![Virtual machine name and operating system](images/New-Virtual-Machine-1.png)
 	At least 2gb of ram and 60gb of storage
-	![[Pasted image 20251020213729.png]]
-	![[Pasted image 20251020213741.png]]
+	![Specify virtual hardware](images/New-Virtual-Machine-2.png)
+	![Specify virtual hard disk](images/New-Virtual-Machine-3.png)
 4. Install Windows 11
 	1. Go through set up until you get to the select country screen
-	2. ![[Pasted image 20251020215312.png]]
+	2. ![Select country or region](images/New-Virtual-Machine-4.png)
 	3. Press SHIFT + F10 and enter 'OOBE\BYPASSNRO', the VM will restart
 	4. Press SHIFT + F10 and enter 'ipconfig /release'. Close command prompt and continue with setup without connecting to internet.
 	5. After setup you may have to restart for the internet to work again.
